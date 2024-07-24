@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -169,4 +169,18 @@
             </div>
         </div>
     </body>
+</html> --}}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>API BASE-WILAYAH INDONESIA</title>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 2rem; margin-bottom: 10px">API BASE-WILAYAH INDONESIA</h1>
+    <p style="text-align: center">By HUGO STUDIO</p>
+</body>
 </html>
