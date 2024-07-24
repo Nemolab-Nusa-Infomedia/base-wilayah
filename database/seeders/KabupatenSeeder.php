@@ -14,7 +14,7 @@ class KabupatenSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = public_path('/base-wilayah/kabupaten.xlsx');
+        $path = public_path('/base-wilayah-file/kabupaten.xlsx');
         // Membaca file Excel
         Excel::import(new KabupatenImport, $path);
     }

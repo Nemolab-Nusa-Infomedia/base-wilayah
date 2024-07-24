@@ -14,7 +14,7 @@ class ProvinsiSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = public_path('/base-wilayah/provinsi.xlsx');
+        $path = public_path('/base-wilayah-file/provinsi.xlsx');
         // Membaca file Excel
         Excel::import(new ProvinsiImport, $path);
     }

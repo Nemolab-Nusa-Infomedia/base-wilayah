@@ -14,7 +14,7 @@ class DesaSeeder extends Seeder
      */
     public function run(): void
     {
-        $path = public_path('/base-wilayah/desa.xlsx');
+        $path = public_path('/base-wilayah-file/desa.xlsx');
         // Membaca file Excel
         Excel::import(new DesaImport, $path);
     }
