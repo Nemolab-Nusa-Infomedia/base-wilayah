@@ -1,4 +1,4 @@
 --- 
 deployment: tasks: 
-- export DEPLOYPATH=/home/lumbung/public_html/ 
-- /bin/cp -R /home/lumbung/repositories/base-wilayah $DEPLOYPATH
+- export DEPLOYPATH=/home/lumbung/base-wilayah.lumbungdata.id/ 
+- /bin/cp -R * $DEPLOYPATH
