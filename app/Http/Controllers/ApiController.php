@@ -12,7 +12,7 @@ class ApiController extends Controller
         $search = $request->input('term');
         $results = Desa::with('kecamatans.kabupatens.provinsis')
             ->where('wilayah', 'LIKE', '%' . $search . '%')
-            ->take(6)
+            ->take(12)
             ->get();
 
         $response = [];

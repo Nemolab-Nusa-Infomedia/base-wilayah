@@ -12,7 +12,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Desa extends Model
 {
     use HasFactory;
-    use HasFactory;
     protected $fillable = ['kode','wilayah','kecamatan_kode'];
     public function provinsis(): BelongsTo
     {
