@@ -1,0 +1,23 @@
+[
+        {
+            "kode": "1101012001",
+            "value": "Keude Bakongan",
+            "kecamatan": "Bakongan",
+            "kode_kecamatan": "110101",
+            "kabupaten": " ACEH SELATAN",
+            "kode_kabupaten": "1101",
+            "provinsi": "ACEH",
+            "kode_provinsi": "11"
+        },
+        {
+            "kode": "1101012002",
+            "value": "Ujong Mangki",
+            "kecamatan": "Bakongan",
+            "kode_kecamatan": "110101",
+            "kabupaten": " ACEH SELATAN",
+            "kode_kabupaten": "1101",
+            "provinsi": "ACEH",
+            "kode_provinsi": "11"
+        }
+        
+]

@@ -8,4 +8,4 @@ use App\Http\Controllers\ApiController;
 //     return $request->user();
 // })->middleware('auth:sanctum');
 
-Route::get('/get-desa', [ApiController::class, 'cariDesa']);
+Route::get('/v1/get-desa', [ApiController::class, 'cariDesa']);
