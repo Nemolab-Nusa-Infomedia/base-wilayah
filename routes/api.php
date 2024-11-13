@@ -9,3 +9,6 @@ use App\Http\Controllers\ApiController;
 // })->middleware('auth:sanctum');
 
 Route::get('/v1/get-desa', [ApiController::class, 'cariDesa']);
+Route::get('/v1/get-kecamatan', [ApiController::class, 'cariKecamatan']);
+Route::get('/v1/get-kabupaten', [ApiController::class, 'cariKabupaten']);
+Route::get('/v1/get-provinsi', [ApiController::class, 'cariProvinsi']);
